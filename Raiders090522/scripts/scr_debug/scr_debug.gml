@@ -10,7 +10,7 @@ function print(_str)
 
 ///@function trace(...)
 ///@description prints an arbitrary number of arguments seperated by a comma.
-///@param _argument1...argumentN Any number of arguments.
+///@param  argument[n] Any number of arguments.
 function trace()
 {
 	var _str = string(argument[0]);
