@@ -1,0 +1,1 @@
+item = new ITEM_HAMMER;
