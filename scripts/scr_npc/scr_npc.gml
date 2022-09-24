@@ -204,6 +204,43 @@ function NPCStateMove(_target): NPCState(_target) constructor
 }
 
 
+	//TODO: Test this
+	
+///@function NPCStateAttack(_target): NPCState(_target) constructor
+///@description state for when NPC has been ordered to attack a target. The target can be on object or Point2.
+///@param _target Point2 or object. If a Point2 moves towards point, attacks enemies there and along the way. If Object only attempts to attack target.
+function NPCStateAttack(_target): NPCState(_target) constructor
+{
+	static Perform = function(_user)
+	{
+		var _target = target;
+		
+		with (_user)
+		{
+			var _hDir = 0;
+			var _vDir = 0;
+			
+			if (distance_to_point(_target.x, _target.y) > LONG_RANGE)
+			{
+				_hDir = sign(_target.x - x);
+				_vDir = sign(_target.y - y);
+				doll_movement(_hDir, _vDir);
+			}
+			else
+			{
+				//If _target is not a struct (so an enemy object)
+				if (instanceof(_target) == undefined)
+				{
+					npc_fight(_target)
+				}
+			}
+			
+			
+			
+		}
+	}
+}
+
 
 /// @function npc_speak(_text)
 /// @description generates a speech balloon for the npc.
