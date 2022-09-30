@@ -65,14 +65,24 @@ switch (global.cursorState) {
 	
 	case cursor.attack:
 		//Order all selected npcs to attack
-	break;
-	
-	case cursor.move:
-		//Order all selected NPCs to move.
-		var _point = new Point2(mouse_x, mouse_y);
-		var _newState = new NPCStateMove(_point);
+		//Target for the command.
+		var _target;
 		
-		print(string(_point));
+		//If there are no NPCs under the mouse, designates _target as a point.
+		if (ds_list_size(_list) == 0)
+		{
+			_target = new Point2(mouse_x, mouse_y);
+		}
+		//Otherwise designates it as the closest NPC to the mouse position.
+		//TODO: make this only target enemeis maybe idk
+		else
+		{
+			_target = ds_list_find_value(_list, 0);
+		}
+		
+		//Sets the state of all selected allies to attacking.
+		var _newState = new NPCStateAttack(_target);
+		
 		for (var _i = 0; _i < ds_list_size(global.selected); _i++)
 		{
 			var _npc = ds_list_find_value(global.selected, _i);
@@ -82,7 +92,23 @@ switch (global.cursorState) {
 				state = _newState;
 				print(string(state));
 			}
+		}
+	break;
+	
+	case cursor.move:
+		//Order all selected NPCs to move.
+		var _point = new Point2(mouse_x, mouse_y);
+		var _newState = new NPCStateMove(_point);
+		
+		for (var _i = 0; _i < ds_list_size(global.selected); _i++)
+		{
+			var _npc = ds_list_find_value(global.selected, _i);
 			
+			with (_npc)
+			{
+				state = _newState;
+				print(string(state));
+			}
 		}
 		
 	break;
