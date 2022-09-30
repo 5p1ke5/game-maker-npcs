@@ -78,6 +78,7 @@
     {"id":{"name":"obj_characterCreation","path":"objects/obj_characterCreation/obj_characterCreation.yy",},"order":0,},
     {"id":{"name":"room_hometown","path":"rooms/room_hometown/room_hometown.yy",},"order":2,},
     {"id":{"name":"fnt_speech","path":"fonts/fnt_speech/fnt_speech.yy",},"order":0,},
+    {"id":{"name":"spr_blockRandom","path":"sprites/spr_blockRandom/spr_blockRandom.yy",},"order":1,},
     {"id":{"name":"spr_weaponMagicSword","path":"sprites/spr_weaponMagicSword/spr_weaponMagicSword.yy",},"order":5,},
     {"id":{"name":"scr_phys","path":"scripts/scr_phys/scr_phys.yy",},"order":1,},
     {"id":{"name":"spr_weaponKnife","path":"sprites/spr_weaponKnife/spr_weaponKnife.yy",},"order":3,},
