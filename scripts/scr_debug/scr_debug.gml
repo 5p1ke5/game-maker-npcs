@@ -1,7 +1,7 @@
 //functions that output to console and otherwise help with debugging.
 
 ///@function print(_string)
-///@description Short version of print()
+///@description Short version of show_debug_message()
 ///@param _string output 
 function print(_str)
 {
