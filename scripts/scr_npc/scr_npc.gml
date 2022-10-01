@@ -257,6 +257,7 @@ function npc_speak(_text)
 	//Creates speech balloon object.
 	var _name = name;
 	
+	//Sets font to speech for a sec to calculate string height, then resets.
 	draw_set_font(fnt_speech);
 	var _balloonHeight = string_height_ext(_text, string_height(_text), TEXT_BALLOON_MAXW);
 	draw_set_font(fnt_default);
