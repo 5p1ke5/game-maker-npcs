@@ -58,6 +58,7 @@
     {"id":{"name":"spr_weed","path":"sprites/spr_weed/spr_weed.yy",},"order":0,},
     {"id":{"name":"scr_meter","path":"scripts/scr_meter/scr_meter.yy",},"order":11,},
     {"id":{"name":"spr_playerPantsWalk0","path":"sprites/spr_playerPantsWalk0/spr_playerPantsWalk0.yy",},"order":0,},
+    {"id":{"name":"spr_guiButton","path":"sprites/spr_guiButton/spr_guiButton.yy",},"order":1,},
     {"id":{"name":"spr_weaponSwordIcon","path":"sprites/spr_weaponSwordIcon/spr_weaponSwordIcon.yy",},"order":6,},
     {"id":{"name":"spr_playerPantsUp0","path":"sprites/spr_playerPantsUp0/spr_playerPantsUp0.yy",},"order":1,},
     {"id":{"name":"obj_colorSliderGreen","path":"objects/obj_colorSliderGreen/obj_colorSliderGreen.yy",},"order":3,},

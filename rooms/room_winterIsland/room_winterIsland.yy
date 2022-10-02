@@ -44,6 +44,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_npcEnemy","path":"objects/obj_npcEnemy/obj_npcEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1232.0,"y":464.0,"resourceVersion":"1.0","name":"inst_3F46936E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_npcEnemy","path":"objects/obj_npcEnemy/obj_npcEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":288.0,"resourceVersion":"1.0","name":"inst_79CF1DBA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_npcEnemy","path":"objects/obj_npcEnemy/obj_npcEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1536.0,"y":416.0,"resourceVersion":"1.0","name":"inst_5F5CE7AF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_guiButton","path":"objects/obj_guiButton/obj_guiButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":4.99999952,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":1600.0,"resourceVersion":"1.0","name":"inst_B386BFB","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Blocks","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -520,6 +521,7 @@
     {"name":"inst_3F46936E","path":"rooms/room_winterIsland/room_winterIsland.yy",},
     {"name":"inst_79CF1DBA","path":"rooms/room_winterIsland/room_winterIsland.yy",},
     {"name":"inst_5F5CE7AF","path":"rooms/room_winterIsland/room_winterIsland.yy",},
+    {"name":"inst_B386BFB","path":"rooms/room_winterIsland/room_winterIsland.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

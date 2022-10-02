@@ -1,4 +1,4 @@
-///@function guiButton_create(_x, _y, _depth, _text, _color1, _color2, _onClick, _onClickArguments=[], _owner = noone)
+///@function guiButton_create(_x, _y, _depth, _text, _color, _onClick, _onClickArguments=[], _owner = noone)
 ///@description Creates a guiBUtton and initializes variables a button gui object should have. Returns reference to the created button.
 ///@param _x starting x coordinate
 ///@param _y starting y coordinate.
@@ -20,7 +20,7 @@ function guiButton_create(_x, _y, _depth, _text, _color, _onClick, _onClickArgum
 	return _button;
 }
 
-///@function guiButton_initialize(_text, _color1, _color2, _onClick, _onClickArguments=[], _owner = noone)
+///@function guiButton_initialize(_text, _color, _onClick, _onClickArguments=[], _owner = noone)
 ///@description initializes variables for a guiButton object.
 ///@param _text Text to have on the button.
 ///@param _color1 color for button
@@ -30,7 +30,7 @@ function guiButton_create(_x, _y, _depth, _text, _color, _onClick, _onClickArgum
 function guiButton_initialize(_text, _color, _onClick, _onClickArguments=[], _owner = noone)
 {
 	text = _text;
-	color = _color;
+	image_blend = _color;
 	onClick = _onClick;
 	onClickArguments = _onClickArguments;
 	owner = _owner;
