@@ -1,0 +1,1 @@
+randomDungeon_generate(200, 200, obj_tiledBlock);

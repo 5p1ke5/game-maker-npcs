@@ -2,7 +2,7 @@
 
 ///@function print(_string)
 ///@description Short version of show_debug_message()
-///@param _string output 
+///@param _str string output 
 function print(_str)
 {
 	show_debug_message(_str);

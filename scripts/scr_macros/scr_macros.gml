@@ -1,7 +1,7 @@
 #region //Room values
 #macro ROOM_TITLE room_titleScreen
 #macro ROOM_CHARACTER_CREATION room_characterCreation
-#macro ROOM_INTRO_SCREEN room_winterIsland
+#macro ROOM_INTRO_SCREEN room_randomDungeon
 #endregion
 
 //player constants
